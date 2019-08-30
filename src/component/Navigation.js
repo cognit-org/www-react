@@ -1,40 +1,40 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles'
 import { AppBar, Tabs, Tab } from '@material-ui/core';
-import PhoneIcon from '@material-ui/icons/Phone'
+import PhoneIcon from '@material-ui/icons/Phone';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import PersonPinIcon from '@material-ui/icons/PersonPin';
+
 
 const Navigation = () => {
-        const useStyles = makeStyles(theme => ({
+        const useStyles = makeStyles({
                 root: {
                         flexGrow: 1,
-                        width: '100%',
-                        backgroundColor: theme.palette.background.paper,
+                        maxWidth: 500,
+                        backgroundColor: 'white'
                 },
-        }));
+        });
 
         const classes = useStyles();
         const [value, setValue] = React.useState(0);
         function handleChange(event, newValue) {
                 setValue(newValue);
         }
-        function a11yProps(index) {
-                return {
-                        id: `scrollable-force-tab-${index}`,
-                        'aria-controls': `scrollable-force-tabpanel-${index}`,
-                };
-        }
 
         return (
-                <div className={classes.root}>
-                        <AppBar>
-                                <Tabs value={value}
+                <div className={classes.root} >
+                        <AppBar color='background.paper'>
+                                <Tabs
+                                        value={value}
                                         onChange={handleChange}
-                                        scrollButtons="on"
-                                        indicatorColor='primary'
-                                        textColor='primary'
-                                        aria-label='cognit'>
-
-                                        <Tab label="Item One" icon={<PhoneIcon />} {...a11yProps(0)} />
+                                        variant="fullWidth"
+                                        indicatorColor="secondary"
+                                        textColor="secondary"
+                                        aria-label="icon label tabs example"
+                                >
+                                        <Tab icon={<PhoneIcon />} label="RECENTS" />
+                                        <Tab icon={<FavoriteIcon />} label="FAVORITES" />
+                                        <Tab icon={<PersonPinIcon />} label="NEARBY" />
                                 </Tabs>
                         </AppBar>
                 </div>
