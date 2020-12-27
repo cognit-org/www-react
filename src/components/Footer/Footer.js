@@ -29,7 +29,7 @@ export default function Footer(props) {
   return (
     <footer className={footerClasses}>
       <div className={classes.container}>
-        <div className={classes.left}>
+        {/* <div className={classes.left}>
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
@@ -68,18 +68,18 @@ export default function Footer(props) {
               </a>
             </ListItem>
           </List>
-        </div>
+        </div> */}
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
           <Favorite className={classes.icon} /> by{" "}
           <a
-            href="https://www.creative-tim.com?ref=mkr-footer"
+            href="https://www.facebook.com/cognit.info/?notif_id=1609082383568603&notif_t=page_fan_growth_drop&ref=notif"
             className={aClasses}
             target="_blank"
           >
-            Creative Tim
+            Cognit & Team
           </a>{" "}
-          for a better web.
+          with Love and React.
         </div>
       </div>
     </footer>

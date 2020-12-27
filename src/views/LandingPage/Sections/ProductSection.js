@@ -10,6 +10,7 @@ import Fingerprint from "@material-ui/icons/Fingerprint";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
+import Button from "@material-ui/core/Button";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/productStyle.js";
 
@@ -21,37 +22,45 @@ export default function ProductSection() {
     <div className={classes.section}>
       <GridContainer justify="center">
         <GridItem xs={12} sm={12} md={8}>
-          <h2 className={classes.title}>Let{"'"}s talk product</h2>
+          <h2 className={classes.title}>Let{"'"}s talk</h2>
           <h5 className={classes.description}>
-            This is the paragraph where you can write more details about your
-            product. Keep you user engaged by providing meaningful information.
-            Remember that by this time, the user is curious, otherwise he wouldn
-            {"'"}t scroll to get here. Add a button if you want the user to see
-            more.
+            Software Engineer batch starts on: 02/01/2020. Call Today at (202)
+            455-6114
           </h5>
+          <Button
+            color="danger"
+            size="lg"
+            href="_SDET Bootcamp Syllabus.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            variant="outlined"
+          >
+            <i className="fas fa-fa-cloud-download" />
+            Download Syllabus
+          </Button>
         </GridItem>
       </GridContainer>
       <div>
         <GridContainer>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={14} sm={12} md={6}>
             <InfoArea
-              title="Free Chat"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Call and Discuss a Path Forward"
+              description="No matter what your background is. Take initiative to change the career and to establish a personalized plan."
               icon={Chat}
               iconColor="info"
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          <GridItem xs={12} sm={12} md={6}>
             <InfoArea
-              title="Verified Users"
-              description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+              title="Verified Instructors"
+              description="We just don't teach, we teach what we implement to solve industry wide problems. You will learn from best Full Stack Developers."
               icon={VerifiedUser}
               iconColor="success"
               vertical
             />
           </GridItem>
-          <GridItem xs={12} sm={12} md={4}>
+          {/* <GridItem xs={12} sm={12} md={4}>
             <InfoArea
               title="Fingerprint"
               description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
@@ -59,7 +68,7 @@ export default function ProductSection() {
               iconColor="danger"
               vertical
             />
-          </GridItem>
+          </GridItem> */}
         </GridContainer>
       </div>
     </div>
