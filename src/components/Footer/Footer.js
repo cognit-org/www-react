@@ -71,15 +71,14 @@ export default function Footer(props) {
         </div> */}
         <div className={classes.right}>
           &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
+          <Favorite className={classes.icon} /> and React by{" "}
           <a
             href="https://www.facebook.com/cognit.info/?notif_id=1609082383568603&notif_t=page_fan_growth_drop&ref=notif"
             className={aClasses}
             target="_blank"
           >
-            Cognit & Team
-          </a>{" "}
-          with Love and React.
+            Cognit Team
+          </a>
         </div>
       </div>
     </footer>

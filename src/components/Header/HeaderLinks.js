@@ -62,8 +62,8 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip>
-          <Alert severity="info">
-            <AlertTitle>New Batch Starts on 02/01/2021</AlertTitle>
+          <Alert severity="success">
+            <AlertTitle>Software Engineering batch Starts on 02/01/2021</AlertTitle>
             <strong>Call Today</strong> (202) 455-6114
           </Alert>
         </Tooltip>

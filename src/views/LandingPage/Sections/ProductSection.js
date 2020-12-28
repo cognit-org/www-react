@@ -33,7 +33,7 @@ export default function ProductSection() {
             href="_SDET Bootcamp Syllabus.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            variant="outlined"
+            variant="contained"
           >
             <i className="fas fa-fa-cloud-download" />
             Download Syllabus
@@ -53,7 +53,7 @@ export default function ProductSection() {
           </GridItem>
           <GridItem xs={12} sm={12} md={6}>
             <InfoArea
-              title="Verified Instructors"
+              title="Excellent Instructors"
               description="We just don't teach, we teach what we implement to solve industry wide problems. You will learn from best Full Stack Developers."
               icon={VerifiedUser}
               iconColor="success"
