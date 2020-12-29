@@ -30,7 +30,7 @@ export default function ProductSection() {
           <Button
             color="danger"
             size="lg"
-            href="_SDET Bootcamp Syllabus.pdf"
+            href="SDE Bootcamp Syllabus.pdf"
             target="_blank"
             rel="noopener noreferrer"
             variant="contained"
