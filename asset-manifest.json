@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/www-react/static/css/main.7828ff43.chunk.css",
-    "main.js": "/www-react/static/js/main.f324ff68.chunk.js",
-    "main.js.map": "/www-react/static/js/main.f324ff68.chunk.js.map",
-    "runtime~main.js": "/www-react/static/js/runtime~main.39baec79.js",
-    "runtime~main.js.map": "/www-react/static/js/runtime~main.39baec79.js.map",
-    "static/js/2.1342fcff.chunk.js": "/www-react/static/js/2.1342fcff.chunk.js",
-    "static/js/2.1342fcff.chunk.js.map": "/www-react/static/js/2.1342fcff.chunk.js.map",
-    "index.html": "/www-react/index.html",
-    "precache-manifest.5a7630f0833638a07667d51c89dc715c.js": "/www-react/precache-manifest.5a7630f0833638a07667d51c89dc715c.js",
-    "service-worker.js": "/www-react/service-worker.js",
-    "static/css/main.7828ff43.chunk.css.map": "/www-react/static/css/main.7828ff43.chunk.css.map",
-    "static/media/avatar.jpg": "/www-react/static/media/avatar.f1d71f77.jpg",
-    "static/media/christian.jpg": "/www-react/static/media/christian.56633ed3.jpg",
-    "static/media/kendall.jpg": "/www-react/static/media/kendall.e0508cc9.jpg",
-    "static/media/landing-bg.jpg": "/www-react/static/media/landing-bg.df8fd3ef.jpg"
+    "main.css": "/static/css/main.7828ff43.chunk.css",
+    "main.js": "/static/js/main.e514de09.chunk.js",
+    "main.js.map": "/static/js/main.e514de09.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a0a9df60.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a0a9df60.js.map",
+    "static/js/2.1342fcff.chunk.js": "/static/js/2.1342fcff.chunk.js",
+    "static/js/2.1342fcff.chunk.js.map": "/static/js/2.1342fcff.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1b95b10d5f49bf376d44c671281a4586.js": "/precache-manifest.1b95b10d5f49bf376d44c671281a4586.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7828ff43.chunk.css.map": "/static/css/main.7828ff43.chunk.css.map",
+    "static/media/avatar.jpg": "/static/media/avatar.f1d71f77.jpg",
+    "static/media/christian.jpg": "/static/media/christian.56633ed3.jpg",
+    "static/media/kendall.jpg": "/static/media/kendall.e0508cc9.jpg",
+    "static/media/landing-bg.jpg": "/static/media/landing-bg.df8fd3ef.jpg"
   }
 }
